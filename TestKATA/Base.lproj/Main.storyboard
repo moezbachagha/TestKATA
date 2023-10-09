@@ -17,6 +17,7 @@
                         <subviews>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iXn-YT-zkR">
                                 <rect key="frame" x="10" y="783" width="373" height="20"/>
+                                <color key="tintColor" red="0.28235294119999998" green="0.23921568630000001" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="NP2-Kl-9nl"/>
                                 </constraints>
@@ -27,7 +28,7 @@
                                     <constraint firstAttribute="height" constant="25" id="Tlc-fS-N5v"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.23921568630000001" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" allowsSelectionDuringEditing="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="xBX-bM-yHi">
@@ -142,27 +143,51 @@
                                     <constraint firstAttribute="height" constant="325" id="WUE-YC-iLS"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoL-vj-y4T">
-                                <rect key="frame" x="50" y="406" width="293" height="40"/>
-                                <color key="backgroundColor" red="0.28235294119999998" green="0.23921568630000001" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weather-app" translatesAutoresizingMaskIntoConstraints="NO" id="RPb-Ki-quo">
+                                <rect key="frame" x="96.666666666666686" y="80" width="200" height="232"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="YDf-yg-6e4"/>
+                                    <constraint firstAttribute="width" constant="200" id="KrU-hf-WUG"/>
+                                    <constraint firstAttribute="height" constant="232" id="bnN-1u-dbY"/>
                                 </constraints>
-                                <color key="tintColor" red="0.93333333730000001" green="0.93333333730000001" blue="0.93333333730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Show "/>
-                                <connections>
-                                    <segue destination="iIZ-VA-OFv" kind="show" id="tyi-ba-WbG"/>
-                                </connections>
-                            </button>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Z7n-nv-UAf">
+                                <rect key="frame" x="30" y="391" width="333" height="70.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please click the button !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXS-hW-zsi">
+                                        <rect key="frame" x="69.333333333333329" y="0.0" width="194.66666666666669" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.28235294119999998" green="0.23921568630000001" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoL-vj-y4T">
+                                        <rect key="frame" x="0.0" y="30.333333333333314" width="333" height="40"/>
+                                        <color key="backgroundColor" red="0.28235294119999998" green="0.23921568630000001" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="mCU-7A-wL5"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.93333333730000001" green="0.93333333730000001" blue="0.93333333730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="More"/>
+                                        <connections>
+                                            <segue destination="iIZ-VA-OFv" kind="show" id="tyi-ba-WbG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="JoL-vj-y4T" secondAttribute="trailing" id="fpA-i2-HoZ"/>
+                                    <constraint firstItem="JoL-vj-y4T" firstAttribute="leading" secondItem="Z7n-nv-UAf" secondAttribute="leading" id="pi4-sO-Jii"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kHu-9u-H9P"/>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="JoL-vj-y4T" firstAttribute="leading" secondItem="kHu-9u-H9P" secondAttribute="leading" constant="50" id="AJ2-hH-5WW"/>
+                            <constraint firstItem="Z7n-nv-UAf" firstAttribute="leading" secondItem="kHu-9u-H9P" secondAttribute="leading" constant="30" id="8Nw-oQ-BWI"/>
+                            <constraint firstItem="RPb-Ki-quo" firstAttribute="centerX" secondItem="XTq-eM-v00" secondAttribute="centerX" id="djg-LV-NBa"/>
                             <constraint firstItem="Krh-9x-6Wy" firstAttribute="top" secondItem="XTq-eM-v00" secondAttribute="top" constant="-16" id="gUd-Bx-yg0"/>
-                            <constraint firstItem="JoL-vj-y4T" firstAttribute="centerY" secondItem="XTq-eM-v00" secondAttribute="centerY" id="mSq-ne-Trc"/>
-                            <constraint firstItem="kHu-9u-H9P" firstAttribute="trailing" secondItem="JoL-vj-y4T" secondAttribute="trailing" constant="50" id="vyW-zU-lby"/>
+                            <constraint firstItem="kHu-9u-H9P" firstAttribute="trailing" secondItem="Z7n-nv-UAf" secondAttribute="trailing" constant="30" id="gmp-Kh-mb4"/>
+                            <constraint firstItem="RPb-Ki-quo" firstAttribute="top" secondItem="XTq-eM-v00" secondAttribute="top" constant="80" id="hHS-wi-jzQ"/>
+                            <constraint firstItem="Z7n-nv-UAf" firstAttribute="centerY" secondItem="XTq-eM-v00" secondAttribute="centerY" id="vbE-H7-ZyG"/>
                             <constraint firstItem="Krh-9x-6Wy" firstAttribute="trailing" secondItem="kHu-9u-H9P" secondAttribute="trailing" id="weo-Md-6Jw"/>
                             <constraint firstItem="Krh-9x-6Wy" firstAttribute="leading" secondItem="kHu-9u-H9P" secondAttribute="leading" id="wgv-D3-JKv"/>
                         </constraints>
@@ -195,6 +220,6 @@
     <resources>
         <image name="1" width="1080" height="813"/>
         <image name="hot" width="24" height="24"/>
-        <image name="weather-app" width="24" height="24"/>
+        <image name="weather-app" width="256" height="256"/>
     </resources>
 </document>

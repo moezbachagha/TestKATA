@@ -1,0 +1,6 @@
+framework module Pods_TestKATATests {
+  umbrella header "Pods-TestKATATests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114319552D30D43BF744E970 /* Pods_TestKATA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76C17A7221962EC3C22B396 /* Pods_TestKATA.framework */; };
+		1B8D2F16628F8623969A8AA0 /* Pods_TestKATATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9891CD2F041BAF5F5F85CFA4 /* Pods_TestKATATests.framework */; };
 		2538B2D82AD3331100DD8897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2D72AD3331100DD8897 /* AppDelegate.swift */; };
 		2538B2DA2AD3331100DD8897 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2D92AD3331100DD8897 /* SceneDelegate.swift */; };
 		2538B2DC2AD3331100DD8897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2DB2AD3331100DD8897 /* ViewController.swift */; };
@@ -18,6 +20,13 @@
 		2538B2FC2AD3331800DD8897 /* TestKATAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2FB2AD3331800DD8897 /* TestKATAUITests.swift */; };
 		2538B2FE2AD3331800DD8897 /* TestKATAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2FD2AD3331800DD8897 /* TestKATAUITestsLaunchTests.swift */; };
 		2538B3152AD33E2F00DD8897 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B3142AD33E2F00DD8897 /* DetailsViewController.swift */; };
+		25663DB72AD45CB9007231B5 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25663DB62AD45CB9007231B5 /* City.swift */; };
+		25663DB92AD45D05007231B5 /* CityListLoadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25663DB82AD45D05007231B5 /* CityListLoadState.swift */; };
+		25663DBB2AD45F36007231B5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25663DBA2AD45F36007231B5 /* Common.swift */; };
+		25663DBD2AD4606F007231B5 /* CityWeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25663DBC2AD4606F007231B5 /* CityWeatherAPI.swift */; };
+		25663DBF2AD460A6007231B5 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25663DBE2AD460A6007231B5 /* DataError.swift */; };
+		25663DC12AD46121007231B5 /* CitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25663DC02AD46121007231B5 /* CitiesViewModel.swift */; };
+		3D3E48BCF431D30078E1C9F9 /* Pods_TestKATA_TestKATAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B31A7C319070DAD713BADFE /* Pods_TestKATA_TestKATAUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		178FFAD3EC84CBF02936CC11 /* Pods-TestKATA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKATA.debug.xcconfig"; path = "Target Support Files/Pods-TestKATA/Pods-TestKATA.debug.xcconfig"; sourceTree = "<group>"; };
+		2173C189C1BF40018688A481 /* Pods-TestKATA-TestKATAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKATA-TestKATAUITests.release.xcconfig"; path = "Target Support Files/Pods-TestKATA-TestKATAUITests/Pods-TestKATA-TestKATAUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2538B2D42AD3331100DD8897 /* TestKATA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKATA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2538B2D72AD3331100DD8897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2538B2D92AD3331100DD8897 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +64,19 @@
 		2538B2FB2AD3331800DD8897 /* TestKATAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKATAUITests.swift; sourceTree = "<group>"; };
 		2538B2FD2AD3331800DD8897 /* TestKATAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKATAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2538B3142AD33E2F00DD8897 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		25663DB62AD45CB9007231B5 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		25663DB82AD45D05007231B5 /* CityListLoadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListLoadState.swift; sourceTree = "<group>"; };
+		25663DBA2AD45F36007231B5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		25663DBC2AD4606F007231B5 /* CityWeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherAPI.swift; sourceTree = "<group>"; };
+		25663DBE2AD460A6007231B5 /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		25663DC02AD46121007231B5 /* CitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
+		2B31A7C319070DAD713BADFE /* Pods_TestKATA_TestKATAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKATA_TestKATAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C08E5DDBBEA4F608C1BCBE1 /* Pods-TestKATA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKATA.release.xcconfig"; path = "Target Support Files/Pods-TestKATA/Pods-TestKATA.release.xcconfig"; sourceTree = "<group>"; };
+		45AFD4035A3441CC8FC4E13D /* Pods-TestKATA-TestKATAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKATA-TestKATAUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestKATA-TestKATAUITests/Pods-TestKATA-TestKATAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9891CD2F041BAF5F5F85CFA4 /* Pods_TestKATATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKATATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD1CCCEE87C2EA23EDA3F8B /* Pods-TestKATATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKATATests.release.xcconfig"; path = "Target Support Files/Pods-TestKATATests/Pods-TestKATATests.release.xcconfig"; sourceTree = "<group>"; };
+		E76C17A7221962EC3C22B396 /* Pods_TestKATA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKATA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A08522404F0A0A4824D85C /* Pods-TestKATATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKATATests.debug.xcconfig"; path = "Target Support Files/Pods-TestKATATests/Pods-TestKATATests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114319552D30D43BF744E970 /* Pods_TestKATA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8D2F16628F8623969A8AA0 /* Pods_TestKATATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3E48BCF431D30078E1C9F9 /* Pods_TestKATA_TestKATAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +114,8 @@
 				2538B2F02AD3331800DD8897 /* TestKATATests */,
 				2538B2FA2AD3331800DD8897 /* TestKATAUITests */,
 				2538B2D52AD3331100DD8897 /* Products */,
+				E47868CF52605E815ECF081E /* Pods */,
+				CF859E60803CA4DFFC9D39CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +194,7 @@
 		2538B30D2AD334B000DD8897 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				25663DBA2AD45F36007231B5 /* Common.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -172,6 +202,8 @@
 		2538B30E2AD334BB00DD8897 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				25663DBC2AD4606F007231B5 /* CityWeatherAPI.swift */,
+				25663DBE2AD460A6007231B5 /* DataError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -179,6 +211,8 @@
 		2538B30F2AD334CD00DD8897 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				25663DB62AD45CB9007231B5 /* City.swift */,
+				25663DB82AD45D05007231B5 /* CityListLoadState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -209,8 +243,32 @@
 		2538B3132AD3354D00DD8897 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				25663DC02AD46121007231B5 /* CitiesViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CF859E60803CA4DFFC9D39CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76C17A7221962EC3C22B396 /* Pods_TestKATA.framework */,
+				2B31A7C319070DAD713BADFE /* Pods_TestKATA_TestKATAUITests.framework */,
+				9891CD2F041BAF5F5F85CFA4 /* Pods_TestKATATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E47868CF52605E815ECF081E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				178FFAD3EC84CBF02936CC11 /* Pods-TestKATA.debug.xcconfig */,
+				3C08E5DDBBEA4F608C1BCBE1 /* Pods-TestKATA.release.xcconfig */,
+				45AFD4035A3441CC8FC4E13D /* Pods-TestKATA-TestKATAUITests.debug.xcconfig */,
+				2173C189C1BF40018688A481 /* Pods-TestKATA-TestKATAUITests.release.xcconfig */,
+				F6A08522404F0A0A4824D85C /* Pods-TestKATATests.debug.xcconfig */,
+				DFD1CCCEE87C2EA23EDA3F8B /* Pods-TestKATATests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2538B3012AD3331800DD8897 /* Build configuration list for PBXNativeTarget "TestKATA" */;
 			buildPhases = (
+				94DCD5EF309785AEE3F8FC4C /* [CP] Check Pods Manifest.lock */,
 				2538B2D02AD3331100DD8897 /* Sources */,
 				2538B2D12AD3331100DD8897 /* Frameworks */,
 				2538B2D22AD3331100DD8897 /* Resources */,
+				4F1B862BABC801239A5A3F6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2538B3042AD3331800DD8897 /* Build configuration list for PBXNativeTarget "TestKATATests" */;
 			buildPhases = (
+				07892F8253A8524B0899C9CE /* [CP] Check Pods Manifest.lock */,
 				2538B2E92AD3331800DD8897 /* Sources */,
 				2538B2EA2AD3331800DD8897 /* Frameworks */,
 				2538B2EB2AD3331800DD8897 /* Resources */,
@@ -255,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2538B3072AD3331800DD8897 /* Build configuration list for PBXNativeTarget "TestKATAUITests" */;
 			buildPhases = (
+				DEC37F907D38F02EC8C11858 /* [CP] Check Pods Manifest.lock */,
 				2538B2F32AD3331800DD8897 /* Sources */,
 				2538B2F42AD3331800DD8897 /* Frameworks */,
 				2538B2F52AD3331800DD8897 /* Resources */,
+				3D154816C9FFE0452185AC5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,15 +402,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07892F8253A8524B0899C9CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestKATATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D154816C9FFE0452185AC5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestKATA-TestKATAUITests/Pods-TestKATA-TestKATAUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestKATA-TestKATAUITests/Pods-TestKATA-TestKATAUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestKATA-TestKATAUITests/Pods-TestKATA-TestKATAUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1B862BABC801239A5A3F6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestKATA/Pods-TestKATA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestKATA/Pods-TestKATA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestKATA/Pods-TestKATA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94DCD5EF309785AEE3F8FC4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestKATA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC37F907D38F02EC8C11858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestKATA-TestKATAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2538B2D02AD3331100DD8897 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25663DBF2AD460A6007231B5 /* DataError.swift in Sources */,
+				25663DBB2AD45F36007231B5 /* Common.swift in Sources */,
 				2538B2DC2AD3331100DD8897 /* ViewController.swift in Sources */,
+				25663DBD2AD4606F007231B5 /* CityWeatherAPI.swift in Sources */,
 				2538B2D82AD3331100DD8897 /* AppDelegate.swift in Sources */,
+				25663DB92AD45D05007231B5 /* CityListLoadState.swift in Sources */,
+				25663DB72AD45CB9007231B5 /* City.swift in Sources */,
 				2538B2E22AD3331200DD8897 /* TestKATA.xcdatamodeld in Sources */,
 				2538B2DA2AD3331100DD8897 /* SceneDelegate.swift in Sources */,
+				25663DC12AD46121007231B5 /* CitiesViewModel.swift in Sources */,
 				2538B3152AD33E2F00DD8897 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +613,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -504,7 +676,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -525,6 +697,7 @@
 		};
 		2538B3022AD3331800DD8897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178FFAD3EC84CBF02936CC11 /* Pods-TestKATA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -553,6 +726,7 @@
 		};
 		2538B3032AD3331800DD8897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C08E5DDBBEA4F608C1BCBE1 /* Pods-TestKATA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -581,6 +755,7 @@
 		};
 		2538B3052AD3331800DD8897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A08522404F0A0A4824D85C /* Pods-TestKATATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -601,6 +776,7 @@
 		};
 		2538B3062AD3331800DD8897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD1CCCEE87C2EA23EDA3F8B /* Pods-TestKATATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -621,6 +797,7 @@
 		};
 		2538B3082AD3331800DD8897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AFD4035A3441CC8FC4E13D /* Pods-TestKATA-TestKATAUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -639,6 +816,7 @@
 		};
 		2538B3092AD3331800DD8897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2173C189C1BF40018688A481 /* Pods-TestKATA-TestKATAUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
