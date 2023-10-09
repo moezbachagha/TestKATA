@@ -17,6 +17,7 @@
 		2538B2F22AD3331800DD8897 /* TestKATATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2F12AD3331800DD8897 /* TestKATATests.swift */; };
 		2538B2FC2AD3331800DD8897 /* TestKATAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2FB2AD3331800DD8897 /* TestKATAUITests.swift */; };
 		2538B2FE2AD3331800DD8897 /* TestKATAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2FD2AD3331800DD8897 /* TestKATAUITestsLaunchTests.swift */; };
+		2538B3152AD33E2F00DD8897 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B3142AD33E2F00DD8897 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2538B2F72AD3331800DD8897 /* TestKATAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKATAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2538B2FB2AD3331800DD8897 /* TestKATAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKATAUITests.swift; sourceTree = "<group>"; };
 		2538B2FD2AD3331800DD8897 /* TestKATAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKATAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2538B3142AD33E2F00DD8897 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,9 @@
 		2538B2D62AD3331100DD8897 /* TestKATA */ = {
 			isa = PBXGroup;
 			children = (
+				2538B30A2AD3338500DD8897 /* App */,
 				2538B2D72AD3331100DD8897 /* AppDelegate.swift */,
 				2538B2D92AD3331100DD8897 /* SceneDelegate.swift */,
-				2538B2DB2AD3331100DD8897 /* ViewController.swift */,
 				2538B2DD2AD3331200DD8897 /* Main.storyboard */,
 				2538B2E32AD3331700DD8897 /* Assets.xcassets */,
 				2538B2E52AD3331700DD8897 /* LaunchScreen.storyboard */,
@@ -128,6 +130,87 @@
 				2538B2FD2AD3331800DD8897 /* TestKATAUITestsLaunchTests.swift */,
 			);
 			path = TestKATAUITests;
+			sourceTree = "<group>";
+		};
+		2538B30A2AD3338500DD8897 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2538B30C2AD3339F00DD8897 /* Data Layer */,
+				2538B30B2AD3339400DD8897 /* UI Layer */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2538B30B2AD3339400DD8897 /* UI Layer */ = {
+			isa = PBXGroup;
+			children = (
+				2538B3132AD3354D00DD8897 /* View Models */,
+				2538B3122AD3353A00DD8897 /* Storyboards */,
+				2538B3112AD334FE00DD8897 /* Views */,
+				2538B3102AD334E800DD8897 /* View Controllers */,
+			);
+			path = "UI Layer";
+			sourceTree = "<group>";
+		};
+		2538B30C2AD3339F00DD8897 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				2538B30F2AD334CD00DD8897 /* Models */,
+				2538B30E2AD334BB00DD8897 /* Networking */,
+				2538B30D2AD334B000DD8897 /* Shared */,
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		2538B30D2AD334B000DD8897 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2538B30E2AD334BB00DD8897 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2538B30F2AD334CD00DD8897 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2538B3102AD334E800DD8897 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2538B2DB2AD3331100DD8897 /* ViewController.swift */,
+				2538B3142AD33E2F00DD8897 /* DetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2538B3112AD334FE00DD8897 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2538B3122AD3353A00DD8897 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2538B3132AD3354D00DD8897 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +348,7 @@
 				2538B2D82AD3331100DD8897 /* AppDelegate.swift in Sources */,
 				2538B2E22AD3331200DD8897 /* TestKATA.xcdatamodeld in Sources */,
 				2538B2DA2AD3331100DD8897 /* SceneDelegate.swift in Sources */,
+				2538B3152AD33E2F00DD8897 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
