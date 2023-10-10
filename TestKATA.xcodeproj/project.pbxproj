@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		114319552D30D43BF744E970 /* Pods_TestKATA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76C17A7221962EC3C22B396 /* Pods_TestKATA.framework */; };
 		1B8D2F16628F8623969A8AA0 /* Pods_TestKATATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9891CD2F041BAF5F5F85CFA4 /* Pods_TestKATATests.framework */; };
+		25338D232AD5AF8D006CDE18 /* MockCityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25338D222AD5AF8D006CDE18 /* MockCityAPI.swift */; };
 		2538B2D82AD3331100DD8897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2D72AD3331100DD8897 /* AppDelegate.swift */; };
 		2538B2DA2AD3331100DD8897 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2D92AD3331100DD8897 /* SceneDelegate.swift */; };
 		2538B2DC2AD3331100DD8897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B2DB2AD3331100DD8897 /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 /* Begin PBXFileReference section */
 		178FFAD3EC84CBF02936CC11 /* Pods-TestKATA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKATA.debug.xcconfig"; path = "Target Support Files/Pods-TestKATA/Pods-TestKATA.debug.xcconfig"; sourceTree = "<group>"; };
 		2173C189C1BF40018688A481 /* Pods-TestKATA-TestKATAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKATA-TestKATAUITests.release.xcconfig"; path = "Target Support Files/Pods-TestKATA-TestKATAUITests/Pods-TestKATA-TestKATAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25338D222AD5AF8D006CDE18 /* MockCityAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCityAPI.swift; sourceTree = "<group>"; };
 		2538B2D42AD3331100DD8897 /* TestKATA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKATA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2538B2D72AD3331100DD8897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2538B2D92AD3331100DD8897 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				2538B2F12AD3331800DD8897 /* TestKATATests.swift */,
+				25338D222AD5AF8D006CDE18 /* MockCityAPI.swift */,
 			);
 			path = TestKATATests;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2538B2F22AD3331800DD8897 /* TestKATATests.swift in Sources */,
+				25338D232AD5AF8D006CDE18 /* MockCityAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
