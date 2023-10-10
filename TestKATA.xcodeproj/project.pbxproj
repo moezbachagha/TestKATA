@@ -137,9 +137,7 @@
 				2538B30A2AD3338500DD8897 /* App */,
 				2538B2D72AD3331100DD8897 /* AppDelegate.swift */,
 				2538B2D92AD3331100DD8897 /* SceneDelegate.swift */,
-				2538B2DD2AD3331200DD8897 /* Main.storyboard */,
 				2538B2E32AD3331700DD8897 /* Assets.xcassets */,
-				2538B2E52AD3331700DD8897 /* LaunchScreen.storyboard */,
 				2538B2E82AD3331700DD8897 /* Info.plist */,
 				2538B2E02AD3331200DD8897 /* TestKATA.xcdatamodeld */,
 			);
@@ -239,6 +237,8 @@
 		2538B3122AD3353A00DD8897 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				2538B2E52AD3331700DD8897 /* LaunchScreen.storyboard */,
+				2538B2DD2AD3331200DD8897 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";

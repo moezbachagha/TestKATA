@@ -102,19 +102,35 @@
                                     <outlet property="delegate" destination="iIZ-VA-OFv" id="9hH-L5-LvC"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRa-ib-8dT">
+                                <rect key="frame" x="20" y="753" width="353" height="45"/>
+                                <color key="backgroundColor" red="0.28235294119999998" green="0.23921568630000001" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="ac3-KJ-bN5"/>
+                                </constraints>
+                                <color key="tintColor" red="0.93333333730000001" green="0.93333333730000001" blue="0.93333333730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Restart"/>
+                                <connections>
+                                    <action selector="restartProgress:" destination="iIZ-VA-OFv" eventType="touchUpInside" id="P3y-CR-1R7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="o4Y-mi-JNG"/>
                         <color key="backgroundColor" red="0.93333333730000001" green="0.93333333730000001" blue="0.93333333730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Y2i-eF-yyc" firstAttribute="top" secondItem="xBX-bM-yHi" secondAttribute="bottom" id="0uG-gH-qr8"/>
                             <constraint firstItem="o4Y-mi-JNG" firstAttribute="trailing" secondItem="Y2i-eF-yyc" secondAttribute="trailing" constant="10" id="1Mh-w3-vAL"/>
+                            <constraint firstItem="o4Y-mi-JNG" firstAttribute="trailing" secondItem="yRa-ib-8dT" secondAttribute="trailing" constant="20" id="99q-Uj-k6n"/>
                             <constraint firstItem="xBX-bM-yHi" firstAttribute="top" secondItem="mtn-gw-kt0" secondAttribute="top" id="EKe-o7-Uxc"/>
                             <constraint firstItem="iXn-YT-zkR" firstAttribute="top" secondItem="Y2i-eF-yyc" secondAttribute="bottom" constant="15" id="HGf-fh-srI"/>
                             <constraint firstItem="iXn-YT-zkR" firstAttribute="leading" secondItem="o4Y-mi-JNG" secondAttribute="leading" constant="10" id="L7Z-wc-bjj"/>
                             <constraint firstItem="Y2i-eF-yyc" firstAttribute="leading" secondItem="o4Y-mi-JNG" secondAttribute="leading" constant="10" id="Pya-TS-3Cz"/>
                             <constraint firstItem="xBX-bM-yHi" firstAttribute="trailing" secondItem="o4Y-mi-JNG" secondAttribute="trailing" id="WWb-FR-tk0"/>
                             <constraint firstItem="xBX-bM-yHi" firstAttribute="leading" secondItem="o4Y-mi-JNG" secondAttribute="leading" id="Yzv-zT-7Ge"/>
+                            <constraint firstItem="yRa-ib-8dT" firstAttribute="leading" secondItem="o4Y-mi-JNG" secondAttribute="leading" constant="20" id="byg-eN-Gnw"/>
                             <constraint firstItem="o4Y-mi-JNG" firstAttribute="trailing" secondItem="iXn-YT-zkR" secondAttribute="trailing" constant="10" id="cvB-zz-vSN"/>
+                            <constraint firstItem="yRa-ib-8dT" firstAttribute="top" secondItem="xBX-bM-yHi" secondAttribute="bottom" constant="10" id="tpg-F7-Ihl"/>
                             <constraint firstItem="o4Y-mi-JNG" firstAttribute="bottom" secondItem="iXn-YT-zkR" secondAttribute="bottom" constant="15" id="wpz-Z6-e8X"/>
                         </constraints>
                     </view>
@@ -123,11 +139,12 @@
                         <outlet property="citiesTable" destination="xBX-bM-yHi" id="CiG-yg-I6y"/>
                         <outlet property="msgTxt" destination="Y2i-eF-yyc" id="td6-pL-46G"/>
                         <outlet property="progressBar" destination="iXn-YT-zkR" id="6EB-dI-dIE"/>
+                        <outlet property="restartButton" destination="yRa-ib-8dT" id="Wul-g2-c3r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kTU-gQ-iBv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1772" y="-46"/>
+            <point key="canvasLocation" x="1771.7557251908397" y="-46.478873239436624"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mmv-rv-0Pg">

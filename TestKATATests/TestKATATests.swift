@@ -40,7 +40,7 @@ final class TestKATATests: XCTestCase {
 
         let viewModel = CitiesViewModel(apiService: mockAPI)
         viewModel.getCityDetails(lon:  10.0, lat:  10.0,
-                                  completion: { cities, error in
+                                 completion: { cities, error in
             XCTAssertTrue(cities?.isEmpty == true, "Expected cities to be empty, but received some values")
             expectation.fulfill()
         })
@@ -60,7 +60,7 @@ final class TestKATATests: XCTestCase {
 
         let viewModel = CitiesViewModel(apiService: mockAPI)
         viewModel.getCityDetails(lon:  10.0, lat:  10.0,
-                                  completion: { cities, error in
+                                 completion: { cities, error in
             XCTAssertTrue(cities == nil, "Expected to get no cities and error, but received schools")
             XCTAssertNotNil(error, "Expected to get an error, but received no error")
 
@@ -81,7 +81,7 @@ final class TestKATATests: XCTestCase {
 
         let viewModel = CitiesViewModel(apiService: mockAPI)
         viewModel.getCityDetails(lon:  10.0, lat:  10.0,
-                                           completion: { cities, error in
+                                 completion: { cities, error in
             XCTAssert(cities?.isEmpty == false, "Expected to get cities")
             XCTAssertNil(error, "Expected error to be nil")
             expectation.fulfill()
